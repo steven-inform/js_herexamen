@@ -1,0 +1,34 @@
+* {
+    font-family: "Segoe UI";
+    box-sizing: border-box;
+}
+body {
+    background: white;
+    margin: 0;
+}
+section {
+    background: white;
+    width: 80%;
+    padding: 5%;
+    margin: 0 auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+th, td {
+    text-align: left;
+    padding: 2px 8px;
+    min-width: 45px;
+}
+table tr:nth-child(2n) {
+    background-color: #EEE
+}
+table tr:nth-child(2n+1) {
+    background-color: #DDD
+}
+button {
+    margin-top: 20px; font-size: 18px;
+}
+td.aanwezig {
+    background: chartreuse;
+}
